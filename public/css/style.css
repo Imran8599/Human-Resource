@@ -1,0 +1,110 @@
+.niceselect_label label{
+    display: block;
+}
+.niceSelect{
+    line-height: 27px;
+}
+.niceSelect , .niceSelect .list{
+    display: block;
+    width: 100%;
+}
+.dataTables_filter input{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    height: 40px;
+    line-height: 40px;
+}
+.dataTables_wrapper .dataTables_paginate span{
+    line-height: 15px;
+}
+.dataTables_paginate .paginate_button{
+    padding: 5px !important;
+}
+
+.nice-select:after{
+    margin-top: -21px !important;
+}
+.nice-select.open_list .nice-select-search-box {
+    opacity: 1;
+    z-index: 99999;
+    border-radius: 0px 0px 10px 10px;
+    pointer-events: auto;
+    -webkit-transform: scale(1) translateY(1px);
+    -ms-transform: scale(1) translateY(1px);
+    transform: scale(1) translateY(1px);
+}
+
+.open_list .list {
+    opacity: 1 !important;
+    pointer-events: auto;
+    max-height: 400px;
+    width: 100px;
+    overflow-y: scroll;
+    -webkit-transform: scale(1) translateY(0);
+    -ms-transform: scale(1) translateY(0);
+    transform: scale(1) translateY(0);
+    padding: 0 !important;
+}
+
+.ncSelect:after {
+    display: none !important;
+    position: relative;
+}
+
+.ncSelect:before {
+    position: absolute;
+    content: "\e64b";
+    right: 15px;
+    top: 1px;
+    font-size: 12px;
+    font-family: 'themify';
+}
+
+.open_list:before {
+    content: "\e648";
+}
+
+.open_list .nice-select-search-box {
+    display: none;
+}
+
+.ncSelect {
+    width: 100px !important;
+    padding: 0 15px;
+    border-radius: 5px;
+    margin: 0 15px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.dataTables_length label {
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+.dataTables_length .open_list {
+    padding: 0 15px;
+    border-radius: 5px;
+}
+
+.open_list:after {
+    min-width: 100px;
+    padding: 0 15px
+}
+.open_list .list{
+    transform: scale(1) translateY(-4px) !important;
+    z-index: 99999 !important;
+    pointer-events: auto !important;
+}
+
+.niceSelect {
+	display: block;
+	width: 100% !important;
+	line-height: 27px !important;
+	height: 42px !important;
+}
+.niceSelect:after {
+    top: 38px !important;
+    
+}
