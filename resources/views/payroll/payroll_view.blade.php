@@ -26,12 +26,24 @@
                 <td>Designation</td>
                 <td>{{App\Profile::employeeDesignation($view->employee_no)}}</td>
               </tr>
+              <tr>
+                <td>Payment Date</td>
+                <td>{{$view->updated_at->format('d-m-Y')}}</td>
+              </tr>
             </tbody>
           </table>
         </div>
         <div class="col-md-5 offset-1">
           <table class="table table-sm">
             <tbody>
+              <tr>
+                <td>Pay Month</td>
+                <td>{{Session::get('month')}}</td>
+              </tr>
+              <tr>
+                <td>Pay Year</td>
+                <td>{{Session::get('year')}}</td>
+              </tr>
               <tr>
                 <td>Payment Date</td>
                 <td>{{$view->updated_at->format('d-m-Y')}}</td>

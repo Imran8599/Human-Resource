@@ -87,7 +87,7 @@ class PayrollController extends Controller
 
     public function payrollReport()
     {
-        $rows = Payroll::orderBy('id','desc')->get();
+        $rows = Payroll::where('payment_method','!=', null)->orderBy('id','desc')->get();
         return view('payroll/payroll_report',compact('rows'));
     }
 }
